@@ -1914,6 +1914,7 @@ Context:
    - Komponen apapun yg bersarang di dlm nya dpt subscribe nilai tersebut secara langsung
    
 
+<<<<<<< HEAD
 Refs and useRef Hook
    - Ref adalah cara utk menyimpan value yg dapat diubah yang:
       - Tetap ada di seluruh proses rendering
@@ -1933,17 +1934,26 @@ Manipulating the DOM with Refs
 - Diperlukan, tetapi tetap saja escape hatch
 - Kita sebaiknya menggunakannya dgn hemat
 - Jika kita terus-menerus memanipulasi DON, itu berati kita sedang melawan React, alih-alih bekerja-sama dengannya.    
+=======
+>>>>>>> 68c997fe026db25df14fccf3eda902ca8adc4cde
 
 
 
 
 
 
+<<<<<<< HEAD
 Proyek yang sangat bagus untuk menguji pemahaman React Anda adalah membuat aplikasi "Task Tracker & Focus Timer" (Aplikasi Pengelola Tugas + Timer Pomodoro).Proyek ini sengaja dirancang agar Anda bisa mempraktikkan hampir semua konsep dasar hingga lanjutan yang baru saja Anda pelajari.📋 Spesifikasi Fitur ProyekAnda diminta untuk membuat aplikasi satu halaman (Single Page Application) yang memiliki fitur berikut:Manajemen Tugas (CRUD Sederhana)Menambahkan tugas baru ke dalam daftar.Menampilkan daftar tugas yang sudah dibuat.Menandai tugas sebagai "Selesai" (mengubah statusnya).Menghapus tugas dari daftar.Timer Pomodoro (Focus Timer)Tombol untuk memulai, menjeda (pause), dan mengatur ulang (reset) timer 25 menit.Ketika waktu habis, tampilkan notifikasi sederhana (misalnya teks "Waktu Fokus Selesai!").Sinkronisasi Tugas AktifPengguna bisa memilih salah satu tugas dari daftar untuk dipasangkan ke Timer. Tugas yang dipilih akan tampil sebagai "Tugas yang Sedang Dikerjakan" di atas timer.💡 Konsep React yang Harus Anda TerapkanUntuk menyelesaikan tugas ini, Anda wajib menerapkan konsep-konsep berikut di dalam kode Anda:useState: Digunakan untuk menyimpan array daftar tugas, status timer (menit & detik), dan tugas yang sedang aktif.useEffect: Digunakan untuk menjalankan hitung mundur timer setiap detiknya (menggunakan setInterval) ketika timer dalam posisi aktif. Jangan lupa menuliskan fungsi cleanup untuk membersihkan interval agar tidak terjadi kebocoran memori (memory leak).State Immutability: Saat menambah atau mengubah status tugas, pastikan Anda menggunakan spread operator (...) dan tidak mengubah (mutate) array state secara langsung.Keys pada List: Saat me-render daftar tugas menggunakan fungsi .map(), pastikan setiap elemen memiliki properti key yang unik (misalnya menggunakan id berbasis Date.now()).🚀 Cara MemulaiBuat proyek baru menggunakan Vite (sangat disarankan karena cepat) di terminal Anda:bashnpm create vite@latest task-tracker-timer -- --template react
 cd task-tracker-timer
 npm install
 npm run dev
 Gunakan kode dengan hati-hati.Anda bebas menggunakan CSS murni atau framework seperti Tailwind CSS untuk tampilannya. Fokuskan terlebih dahulu pada fungsi dan logikanya agar berjalan dengan benar.Jika Anda sudah selesai membuat kodenya atau merasa bingung di bagian tertentu (misalnya cara membuat fungsi cleanup di useEffect untuk timer), beri tahu saya.Apakah Anda ingin saya memberikan bocoran struktur komponen (susunan file) yang ideal untuk proyek ini, atau Anda ingin mencoba mendesain strukturnya sendiri dari awal?
+=======
+
+
+
+
+>>>>>>> 68c997fe026db25df14fccf3eda902ca8adc4cde
 
 
 
