@@ -1,20 +1,14 @@
 import {Header} from "./Header";
-import {UserContext} from "./UserContext.jsx";
+import {StopWatch} from "./StopWatch"
+import {FocusInput} from "./FocusInput";
+
 
 function App() {
-   const user = {
-      name: "Bruce Wayne",
-      role: "admin",
-      theme: "dark"
-   };
    
     return (
-       <UserContext value={user}>
-           <div>
-              <h1>Dashboard</h1>
-              <Header />
-           </div>
-       </UserContext>
+        <div>
+           <FocusInput />
+        </div>
     )
 }
 
